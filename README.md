@@ -13,13 +13,9 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
   <ol>
     <li>
       <a href="#Necessities">Necessities</a>
-      <a href="#Step_1">Step 1: Get your API Key</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Step_1">Step 1: Get your API Key</a>
       <ul>
         <li><a href="#Step_1">Prerequisites</a></li>
         <li><a href="#Step_1">Installation</a></li>
