@@ -4,14 +4,16 @@
 
 ## Introduction
 
-In this manual we will try to connect an API (windy) to our Arduino board.
+In this manual we will try to connect an API (windy) with ESP8266. Windy is a wind and waves forecast for kiters, surfers and anyone else. 
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Step_1">About The Project</a>
+      <a href="#Necessities">Necessities</a>
+      <a href="#Step_1">Step 1: Get your API Key</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -30,6 +32,9 @@ In this manual we will try to connect an API (windy) to our Arduino board.
 
 ## Necessities
 - 1x Arduino ESP8266 Board
+
+## Step 1: Get your API Key
+To begin 
 
 <!-- ROADMAP -->
 ## Documentation
