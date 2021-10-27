@@ -38,11 +38,11 @@ We use Windy to get our data, because windy is one of the most reliable API's wi
 Make sure u choose **Point Forecast API**.
 I filled in the specs like this. These don't really matter for us, it's more for windy to check how we use their data.
 
-https://github.com/Shakirahadjih/IoT/blob/main/styles/images/windy-1.png
+![Windy API Key](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/windy-1.png)
 
 Make sure you save the API key.
 
-## Step 2: Control the API using Postman
+## Step 2: Test the API using Postman
 
 <!-- ROADMAP -->
 ## Documentation
