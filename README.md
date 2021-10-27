@@ -33,7 +33,16 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
 - 1x Arduino ESP8266 Board
 
 ## Step 1: Get your API Key
-We use Windy to get our data, because windy is one of the most reliable API's with a great documentation to help us in our project. 
+We use Windy to get our data, because windy is one of the most reliable API's with a great documentation to help us in our project. To get started we need to go to https://api.windy.com/keys to create a new key. Make a Windy account first, if you did'nt already have one. So, once you have made your account, you can create an Api key by clicking the button.
+
+Make sure u choose **Point Forecast API**.
+I filled in the specs like this. These don't really matter for us, it's more for windy to check how we use their data.
+
+https://github.com/Shakirahadjih/IoT/blob/main/styles/images/windy-1.png
+
+Make sure you save the API key.
+
+## Step 2: Control the API using Postman
 
 <!-- ROADMAP -->
 ## Documentation
