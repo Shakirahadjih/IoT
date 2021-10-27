@@ -261,7 +261,19 @@ void loop() {
 }
 ```
 
+Then start filling in the following snippets in your code;
+1. #define TEST_HOST "api.windy.com" 
+2. #define TEST_HOST_FINGERPRINT ""
+   To achieve the fingerprint we need to open the api request in chrome 
+
 <!-- ROADMAP -->
 ## Documentation
 
 Look at the [wiki](https://github.com/Shakirahadjih/IoT/wiki) or refer to my [design documentation](https://github.com/Shakirahadjih/IoT/blob/main/Ontwerpdocu%20-%20IoT.pdf) for my UX documentation during this project. 
+
+## Bronnen
+https://github.com/witnessmenow/arduino-sample-api-request/blob/master/ESP8266/HTTP_GET_JSON/HTTP_GET_JSON.ino
+https://www.youtube.com/watch?v=HUjFMVOpXBM
+https://api.windy.com/point-forecast/docs
+https://maakbaas.com/esp8266-iot-framework/logs/https-requests/
+https://forum.arduino.cc/t/api-get-on-arduino-uno-connected-to-esp8266/468412/7
