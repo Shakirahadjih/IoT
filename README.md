@@ -28,4 +28,4 @@
 <!-- ROADMAP -->
 ## Documentation
 
-Look at the [wiki](https://github.com/Shakirahadjih/IoT/wiki) or refer to my [design documentation]() for my UX documentation during this project. 
+Look at the [wiki](https://github.com/Shakirahadjih/IoT/wiki) or refer to my [design documentation](https://github.com/Shakirahadjih/IoT/blob/main/Ontwerpdocu%20-%20IoT.pdf) for my UX documentation during this project. 
