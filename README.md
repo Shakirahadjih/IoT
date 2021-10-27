@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this manual we will try to connect an API (windy) with ESP8266. Windy is a wind and waves forecast for kiters, surfers and anyone else. 
+In this manual we will try to connect an API (windy) with ESP8266. Windy is a wind and waves forecast for kiters, surfers and anyone else. The goal of this manual is printing the data that's coming from the API to the Arduino Serial Monitor.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -21,6 +21,9 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
         <li><a href="#Step_1">Installation</a></li>
       </ul>
     </li>
+        <li>
+      <a href="#Necessities">Control the API using Postman</a>
+    </li>
     <li><a href="#Step_1">Usage</a></li>
     <li><a href="#Documentation">Documentation</a></li>
   </ol>
@@ -30,7 +33,7 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
 - 1x Arduino ESP8266 Board
 
 ## Step 1: Get your API Key
-To begin 
+We use Windy to get our data, because windy is one of the most reliable API's with a great documentation to help us in our project. 
 
 <!-- ROADMAP -->
 ## Documentation
