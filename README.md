@@ -292,7 +292,6 @@ Now that everyting is set it's time to upload the code to your board. What shoul
 
 I only got showed dots, ......., in the Serial Monitor. Which means that there is a connection to the wifi, but apparently there is no connection to the API. As I expected. 
 
-#Other ways
 ## Other ways
 
 I thought that it should be simple to send a HTTP request using Arduino. There are various other ways than this one. For us the fingerprint is not really necessary. The fingerprint is a safety, which is important if you are playing with users data or other commands that could result into something bad.
