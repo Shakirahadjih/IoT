@@ -11,16 +11,13 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#Necessities">Necessities</a>
-    </li>
-    <li>
-      <a href="#Step_1">Step 1: Get your API Key</a>
-    </li>
-        <li>
-      <a href="#Step_2">Control the API using Postman</a>
-    </li>
+    <li><a href="#Necessities">Necessities</a></li>
+    <li><a href="#Step_1">Step 1: Get your API Key</a></li>
+    <li><a href="#Step_2">Step 2: Control the API using Postman</a></li>
     <li><a href="#Step_3">Step 3: Make a connection to the API on the Arduino</a></li>
+    <li><a href="#Step_4">Step 4: Get everything ready</a></li>
+    <li><a href="#Step_5">Step 5: Upload the code to your Arduino board</a></li>
+    <li><a href="#Step_5">Step 6: Other ways</a></li>
     <li><a href="#Documentation">Documentation</a></li>
   </ol>
 </details>
@@ -289,14 +286,26 @@ Simply plug in your board in your Arduino. Make sure you are connected to the ri
 
 ![Right port for ESP](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.26.37.png)
 
-**Upload the code to your Arduino board**
+## Upload the code to your Arduino board
+
+Now that everyting is set it's time to upload the code to your board. What should happen is that you get the API Data in your monitor. Open the Serial Monitor (Shift Command M or Tools > Serial Monitor) and here you will either stumble upon errors or your API data. 
+
+I only got showed dots, ......., in the Serial Monitor. Which means that there is a connection to the wifi, but apparently there is no connection to the API. As I expected. 
+
+## Other ways
+
+I thought that it should be simple to send a HTTP request using Arduino. There are various other ways than this one. For us the fingerprint is not really necessary. The fingerprint is a safety, which is important if you are playing with users data or other commands that could result into something bad.
+In the previous code we also never did anything with our API Key. 
+So we could make the code simpeler.
+
+
 
 <!-- ROADMAP -->
 ## Documentation
 
 Look at the [wiki](https://github.com/Shakirahadjih/IoT/wiki) or refer to my [design documentation](https://github.com/Shakirahadjih/IoT/blob/main/Ontwerpdocu%20-%20IoT.pdf) for my UX documentation during this project. 
 
-## Bronnen
+## Sources
 https://github.com/witnessmenow/arduino-sample-api-request/blob/master/ESP8266/HTTP_GET_JSON/HTTP_GET_JSON.ino
 https://www.youtube.com/watch?v=HUjFMVOpXBM
 https://api.windy.com/point-forecast/docs
