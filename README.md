@@ -1,6 +1,6 @@
 # Motivation Mouse
 
-![SurfingMouse banner](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/SurfingMouse-banner.png)
+![SurfingMouse banner](https://www.programmableweb.com/sites/default/files/windydotcom-api.jpg)
 
 ## Introduction
 
