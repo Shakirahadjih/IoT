@@ -16,15 +16,11 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
     </li>
     <li>
       <a href="#Step_1">Step 1: Get your API Key</a>
-      <ul>
-        <li><a href="#Step_1">Prerequisites</a></li>
-        <li><a href="#Step_1">Installation</a></li>
-      </ul>
     </li>
         <li>
-      <a href="#Necessities">Control the API using Postman</a>
+      <a href="#Step_2">Control the API using Postman</a>
     </li>
-    <li><a href="#Step_1">Usage</a></li>
+    <li><a href="#Step_3">Step 3: Make a connection to the API on the Arduino</a></li>
     <li><a href="#Documentation">Documentation</a></li>
   </ol>
 </details>
@@ -264,7 +260,12 @@ void loop() {
 Then start filling in the following snippets in your code;
 1. #define TEST_HOST "api.windy.com" 
 2. #define TEST_HOST_FINGERPRINT ""
-   To achieve the fingerprint we need to open the api request in chrome 
+
+To achieve the fingerprint we need to open the api request in chrome. Go to https://api.windy.com/api/point-forecast/your-api-key. Click the little lock that's      next to the url on the left. Then click "Verbinding is beveiligd", "Certificaat is geldig", "Details", and at the end you will find your SHA-1 key
+At this moment I started to give up a little bit already. Because now we are starting to fill out information of a source that gives us nothing but errors.
+
+3. char ssid[] = "SSID";       // your network SSID (name)
+4. char password[] = "password";  // your network key
 
 <!-- ROADMAP -->
 ## Documentation
