@@ -1,6 +1,6 @@
-# Motivation Mouse
+# connect an API (windy) with ESP8266
 
-![SurfingMouse banner](https://www.programmableweb.com/sites/default/files/windydotcom-api.jpg)
+![SurfingMouse banner](https://raw.githubusercontent.com/jtlai0921/API/master/assets/intro4.gif)
 
 ## Introduction
 
