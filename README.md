@@ -287,7 +287,9 @@ First, if you don't already have this, install Json.
 
 Simply plug in your board in your Arduino. Make sure you are connected to the right port.
 
-![Right port for ESP](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.16.59.png)
+![Right port for ESP](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.26.37.png)
+
+**Upload the code to your Arduino board**
 
 <!-- ROADMAP -->
 ## Documentation
