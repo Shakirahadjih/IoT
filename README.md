@@ -13,7 +13,7 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
   <ol>
     <li><a href="#Necessities">Necessities</a></li>
     <li><a href="#Step_1">Step 1: Get your API Key</a></li>
-    <li><a href="#Step_2">Step 2: Control the API using Postman</a></li>
+    <li><a href="#Step_2">Step 2: Test the API using Postman</a></li>
     <li><a href="#Step_3">Step 3: Make a connection to the API on the Arduino</a></li>
     <li><a href="#Step_4">Step 4: Get everything ready</a></li>
     <li><a href="#Step_5">Step 5: Upload the code to your Arduino board</a></li>
