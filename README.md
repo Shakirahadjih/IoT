@@ -1,4 +1,4 @@
-# connect an API (windy) with ESP8266
+# Connect an API (windy) with ESP8266
 
 ![SurfingMouse banner](https://raw.githubusercontent.com/jtlai0921/API/master/assets/intro4.gif)
 
