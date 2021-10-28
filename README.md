@@ -323,3 +323,4 @@ https://www.youtube.com/watch?v=HUjFMVOpXBM
 https://api.windy.com/point-forecast/docs
 https://maakbaas.com/esp8266-iot-framework/logs/https-requests/
 https://forum.arduino.cc/t/api-get-on-arduino-uno-connected-to-esp8266/468412/7
+https://www.w3schools.com/tags/ref_httpmethods.asp
