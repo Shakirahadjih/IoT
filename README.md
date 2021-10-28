@@ -1,5 +1,5 @@
 # Connect an API (windy) with ESP8266
-Written by Shakira Hadjih
+Written by Shakira Hadjih <br>
 Student CMD, for the subject IoT
 
 ![SurfingMouse banner](https://raw.githubusercontent.com/jtlai0921/API/master/assets/intro4.gif)
