@@ -267,6 +267,18 @@ At this moment I started to give up a little bit already. Because now we are sta
 3. char ssid[] = "SSID";       // your network SSID (name)
 4. char password[] = "password";  // your network key
 
+## Step 4: Get everything ready
+
+Now we tested everything (normally what we have tested should have gone right) it's time to get everything ready to upload the code to the board.
+
+First, if you don't already have this, install Json.
+Go to Tools
+Manage libraries...
+Search for "Arduino Json" in the Arduino Library manager.
+Install Arduino Json by blanchon (// https://github.com/bblanchon/ArduinoJson)
+
+![Install json](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.16.59.png)
+
 <!-- ROADMAP -->
 ## Documentation
 
