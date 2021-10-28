@@ -265,6 +265,7 @@ At this moment I started to give up a little bit already. Because now we are sta
 
 3. char ssid[] = "SSID";       // your network SSID (name)
 4. char password[] = "password";  // your network key
+5. client.print("/api/point-forecast/v2");
 
 ## Step 4: Get everything ready
 
@@ -298,7 +299,18 @@ I thought that it should be simple to send a HTTP request using Arduino. There a
 In the previous code we also never did anything with our API Key. 
 So we could make the code simpeler.
 
+According to Windy we should send a POST request with the following body
 
+```
+{
+    "lat": 49.809,
+    "lon": 16.787,
+    "model": "desired_model",
+    "parameters": ["desired_parameter_1", "desired_parameter_2", ...],
+    "levels": ["optionally_desired_gh_level_1", ...],
+    "key": "your_API_key"
+}
+``` 
 
 <!-- ROADMAP -->
 ## Documentation
