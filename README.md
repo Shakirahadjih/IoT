@@ -257,6 +257,8 @@ void loop() {
 }
 ```
 
+**Fill in the code with your information**
+
 Then start filling in the following snippets in your code;
 1. #define TEST_HOST "api.windy.com" 
 2. #define TEST_HOST_FINGERPRINT ""
@@ -269,15 +271,23 @@ At this moment I started to give up a little bit already. Because now we are sta
 
 ## Step 4: Get everything ready
 
+**Install the needed libraries**
+
 Now we tested everything (normally what we have tested should have gone right) it's time to get everything ready to upload the code to the board.
 
 First, if you don't already have this, install Json.
-Go to Tools
-Manage libraries...
-Search for "Arduino Json" in the Arduino Library manager.
-Install Arduino Json by blanchon (// https://github.com/bblanchon/ArduinoJson)
+- Go to Tools
+- Manage libraries...
+- Search for "Arduino Json" in the Arduino Library manager.
+- Install Arduino Json by blanchon (// https://github.com/bblanchon/ArduinoJson)
 
 ![Install json](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.16.59.png)
+
+**Connect the board to your computer**
+
+Simply plug in your board in your Arduino. Make sure you are connected to the right port.
+
+![Right port for ESP](https://github.com/Shakirahadjih/IoT/blob/main/styles/images/Schermafbeelding%202021-10-28%20om%2007.16.59.png)
 
 <!-- ROADMAP -->
 ## Documentation
