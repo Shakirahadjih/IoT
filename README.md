@@ -17,7 +17,7 @@ In this manual we will try to connect an API (windy) with ESP8266. Windy is a wi
     <li><a href="#Step_3">Step 3: Make a connection to the API on the Arduino</a></li>
     <li><a href="#Step_4">Step 4: Get everything ready</a></li>
     <li><a href="#Step_5">Step 5: Upload the code to your Arduino board</a></li>
-    <li><a href="#Other ways">Step 6: Other ways</a></li>
+    <li><a href="#Other ways">Other ways</a></li>
     <li><a href="#Documentation">Documentation</a></li>
   </ol>
 </details>
@@ -292,6 +292,7 @@ Now that everyting is set it's time to upload the code to your board. What shoul
 
 I only got showed dots, ......., in the Serial Monitor. Which means that there is a connection to the wifi, but apparently there is no connection to the API. As I expected. 
 
+#Other ways
 ## Other ways
 
 I thought that it should be simple to send a HTTP request using Arduino. There are various other ways than this one. For us the fingerprint is not really necessary. The fingerprint is a safety, which is important if you are playing with users data or other commands that could result into something bad.
